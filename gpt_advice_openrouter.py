@@ -2,14 +2,14 @@
 
 import requests
 
-
 # --- Load API Key ---
 try:
     import streamlit as st
-    OPENROUTER_API_KEY = st.secrets["openrouter"]["api_key"]
+    OPENROUTER_API_KEY = st.secrets.get("OPENROUTER_API_KEY")
 except ImportError:
     import os
     OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+    
 
 
 # --- GPT Advice Function ---
