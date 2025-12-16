@@ -1,7 +1,7 @@
 import streamlit as st
 
 # --- App Config ---
-st.set_page_config(page_title="🩺 CARDIOMETRIX", layout="centered")
+st.set_page_config(page_title="🩺 Chron-GPT|An Intelligent Modular System", layout="centered")
 
 # --- Hero Section ---
 
@@ -17,9 +17,9 @@ st.markdown(
     unsafe_allow_html=True
 )
 # --- Intro Section ---
-st.markdown("### 👋 Welcome to CARDIOMETRIX")
+st.markdown("### 👋 Welcome to Chron-GPT")
 st.write("""
-CARDIOMETRIX intelligently analyzes risks of:
+Chron-GPT intelligently analyzes risks of:
 
 - 🏋️ **Obesity** (BMI-based)
 - 💉 **Diabetes** (Glucose-based)
